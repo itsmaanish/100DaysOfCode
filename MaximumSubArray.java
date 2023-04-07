@@ -4,8 +4,8 @@ class MaximumSubArray {
         
         for(int i=0;i<nums.length;i++){
             sum += nums[i];
-            max = Math.max(sum,max);  /* Math.max returns the largest number
-                                         from the given as input parameters*/
+            max = Math.max(sum,max); 
+            /* Math.max returns the largest number from the given as input parameters*/
             
             if(sum<0) sum = 0;
         }
